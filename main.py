@@ -21,7 +21,6 @@ def main() -> None:
             defaults={"description": race_desc}
         )
 
-        # Skills
         for skill_info in race_info.get("skills", []):
             skill_name = skill_info.get("name")
             skill_bonus = skill_info.get("bonus")
